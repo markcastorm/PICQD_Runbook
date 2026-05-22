@@ -1,0 +1,12 @@
+Section,Label,Cons_BS_2025-Q3,FairValue_2025-Q3,Diff_2025-Q3
+exceed,Bonds,19489103.0,19977815.0,488712.0
+exceed,Japanese government bonds,18438016.0,18903020.0,465004.0
+exceed,Japanese local government bonds,728650.0,746281.0,17631.0
+exceed,Japanese corporate bonds,322436.0,328512.0,6076.0
+exceed,Subtotal,19489103.0,19977815.0,488712.0
+notexc,Bonds,11461706.0,8874116.0,-2587590.0
+notexc,Japanese government bonds,9855289.0,7654642.0,-2200646.0
+notexc,Japanese local government bonds,717630.0,578434.0,-139195.0
+notexc,Japanese corporate bonds,888787.0,641038.0,-247748.0
+notexc,Subtotal,11461706.0,8874116.0,-2587590.0
+TOTAL,Total,30950809.0,28851931.0,-2098877.0

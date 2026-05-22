@@ -1,0 +1,27 @@
+Page 11  |  3 table(s)
+
+=== Table 0  7x4  bbox=[78, 78, 513, 182]
+                                                                    Col0             Col1            Col2   (Billions of yen)
+0                                                                  As of              NaN  March 31, 2024  September 30, 2024
+1                                Equities of subsidiaries and affiliates              NaN            78.6               108.1
+2  Available-for-sale securities\nDomestic stocks\nForeign stocks\nOther              NaN           137.6               144.6
+3                                                                    NaN  Domestic stocks             4.2                 4.2
+4                                                                    NaN   Foreign stocks            23.1                24.4
+5                                                                    NaN            Other           110.1               115.8
+6                                                                  Total              NaN           216.2               252.7
+
+=== Table 1  4x11  bbox=[71, 254, 550, 336]
+       7) Fair Value of     Money Held in Trust         Col2                                         Col3   Col4    Col5       (Billions of yen)         Col7                                         Col8   Col9   Col10
+0                 As of          March 31, 2024          NaN                                          NaN    NaN     NaN      September 30, 2024          NaN                                          NaN    NaN     NaN
+1                   NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN
+2                   NaN                     NaN          NaN                                          NaN  Gains  Losses                     NaN          NaN                                          NaN  Gains  Losses
+3  Money held in\ntrust                 6,158.0      6,158.0                                            -      -       -                 6,081.5      6,081.5                                            -      -       -
+
+=== Table 2  6x11  bbox=[71, 413, 550, 544]
+                                As of March 31, 2024         Col2                                         Col3     Col4    Col5 September 30, 2024         Col7                                         Col8     Col9   Col10
+0                                 NaN    Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN        Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN
+1                                 NaN            NaN          NaN                                          NaN    Gains  Losses                NaN          NaN                                          NaN    Gains  Losses
+2  Assets held-to-\nmaturity in trust              -            -                                            -        -       -                  -            -                                            -        -       -
+3  Assets held for\nreserves in trust              -            -                                            -        -       -                  -            -                                            -        -       -
+4          Other money\nheld in trust        3,642.4      6,158.0                                      2,515.5  2,553.9    38.3            3,737.6      6,081.5                                      2,343.9  2,385.7    41.8
+

@@ -1,0 +1,18 @@
+Page 56  |  3 table(s)
+
+=== Table 0  3x6  bbox=[71, 108, 537, 232]
+  Category                                    Type of derivative   Contract\namount Contract\namount due\nafter 1 year       Fair value Net Valuation\nGain/Loss
+0      OTC  Forward foreign\nexchange\nSold\nU.S. dollars\nOther  5,561\n4,704\n856                            -\n-\n-  (281)\n(282)\n0          (281)\n(282)\n0
+1    Total                                                  None                  -                                  -                -                    (281)
+
+=== Table 1  4x6  bbox=[71, 274, 537, 504]
+       Hedge\naccounting\nmethod                                                               Type of derivative                      Major\nhedged item                               Contract\namount Contract\namount due\nafter 1 year                                     Fair value
+0    Deferred\nhedge\naccounting     Currency swaps\nYen-receipt / Foreign\ncurrency payment\nU.S. dollars\nEuros  Foreign\ncurrency-\ndenominated\nbonds                        135,725\n133,360\n2,365            135,725\n133,360\n2,365                      (15,356)\n(14,924)\n(432)
+1  Fair value\nhedge\naccounting  Forward foreign\nexchange\nSold\nU.S. dollars\nEuros\nAustralian dollars\nOther  Foreign\ncurrency-\ndenominated\nbonds  1,298,661\n711,145\n230,577\n206,995\n149,943                      -\n-\n-\n-\n-  (55,830)\n(41,618)\n(4,756)\n(4,612)\n(4,843)
+2                          Total                                                                             None                                    None                                              -                                  -                                       (71,187)
+
+=== Table 2  3x6  bbox=[71, 529, 537, 628]
+     Hedge\naccounting\nmethod                                                   Type of derivative    Major\nhedged item Contract\namount Contract\namount due\nafter 1 year Fair value
+0  Deferred\nhedge\naccounting  Interest rate swaps\nFixed-rate receivable /\nFloating-rate payable  Insurance\nliability          300,000                            300,000   (72,803)
+1                        Total                                                                 None                  None                -                                  -   (72,803)
+

@@ -1,0 +1,119 @@
+Follow the SIMBA pipeline architecture documented in:
+-D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\Project_information\CLAUDE.md(full technical context)
+((D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\config.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\extractor.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\file_generator.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\main.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\orchestrator.py)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\README.md)
+(D:\Projects\SIMBA-RUNBOOKS\AUSFEDGOVCF\scraper.py)) so this are the files that make upt the laud.md  read them only if you dont udertand the claude.md file to save tokens
+
+
+- D:\Projects\SIMBA-RUNBOOKS\Runbook_RELPRCLVLINDX\Project_information\PIPELINE_PROMPT.md (file skeletons + rules)
+
+Same structure: config.py, scraper.py, extractor.py, file_generator.py, orchestrator.py, main.py
+Same output: DATA .xls, META .xls, ZIP, master CSV update, timestamped + latest folders
+Same environment: Windows dev, Docker Linux production, all packages pre-installed, os.path.join() everywhere
+
+now weare getting started on a new runnbook(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\PICQD_Runbook.docx) its docx file (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\PICQD_Runbook.docx.pdf) you can use a script to read dox or the pdf files since you cant read them directly you lack that ability 
+Here is the xlsx version (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\PICQD_DATA_20260515.xlsx) of the manual data
+here is the csv version (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\PICQD_DATA_20260515.xlsx - 2025-Q4.csv)
+Meta  file we dont need a metafile for this 
+
+analyze them first before we started 
+thistime we will  have the config.py  add the necessary collumns mapinng since the sub headers and headers in the manual data will be exactly the way they are to every output and in the exact arrangemen  since they are absolute unless other wise
+remember they are absolute so store them in the config .py
+(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\PICQD_DATA_20260515.xlsx - 2025-Q4.csv)  analyze these files verry keenly they are verry important  lets get started
+the file is abit straight forward lets get started
+lets first start with the scraper.py 
+we need to  visit this link using selenium stealth ensure we mimic human clicks   and winreg too ensure it works for linux too other wise if it cant dont use it also ensure also works for headles true too
+lets visit this link
+(https://www.jp-life.japanpost.jp/english/news/en_news_index.html)   once the site is loaded it looks likethis (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image1.png)
+here is the sample html(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\sample.txt) dont try reading the full file its verry hudge concentrate on whats important sections
+ we have like abunch of releases in the least frome 2026 downwards  (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image2.png) we get that  we are looking for Finacial results in the list basd on the year  of the release automaticaly we will be looking for the latests finacial Results 
+(<div class="rptGrp">
+<h3><a href="/english/news/2026/en_news_id000216.html" tabindex="1000">Financial Results for the Fiscal Year Ended March 31, 2026</a></h3>
+<p class="date">May 15, 2026</p>
+<div class="flc"><span>&nbsp;</span></div>
+<div class="stsIcn"><div class="newMark" style="display: block;"><img src="/shared/img/o_new_22-9.gif" alt="new" width="22" height="9"></div></div>
+</div>) like this is for 2026 you can see this is for 2025 (<div class="rptGrp">
+<h3><a href="/english/news/2026/en_news_id000210.html" tabindex="1000">Financial Results for the Nine Months Ended December 31, 2025</a></h3>
+<p class="date">Feb 13, 2026</p>
+<div class="flc"><span>&nbsp;</span></div>
+<div class="stsIcn"><div class="newMark">2026:02:13:15:31:00</div></div>
+</div>) since its under  News release 2025(<div class="rptGrp">
+<h3><a href="/english/news/2025/en_news_id000201.html" tabindex="1000">Financial Results for the Six Months Ended September 30, 2025</a></h3>
+<p class="date">Nov 14, 2025</p>
+<div class="flc"><span>&nbsp;</span></div>
+<div class="stsIcn"><div class="newMark">2025:11:14:15:32:00</div></div>
+</div>)
+(<div class="rptGrp">
+<h3><a href="/english/news/2025/en_news_id000197.html" tabindex="1000">Financial Results for the Three Months Ended June 30, 2025</a></h3>
+<p class="date">Aug 08, 2025</p>
+<div class="flc"><span>&nbsp;</span></div>
+<div class="stsIcn"><div class="newMark">2025:08:08:15:30:00</div></div>
+</div>) those wer all found on 2026  so based on the latest file date  we will also scrape the date  save it in a json file this will help us deermine 
+what file we have processed and if there is a new file   new data so also add a config to bypass this check if i need to 
+
+also another one to set date year or None to always look for the latest  date Finacial results  dynamicaly  we need to click  the required link it will lead us to a page like this (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\sample2.txt)
+ when it leads us to the new page we look for  Announcement of Financial Results LIKE THIS (<span class="relLnk"><a class="text-link" href="/english/news/assets/pdf/2026/pr0515en-3-03.pdf">Download PDF file [Announcement of Financial Results for the Fiscal Year Ended March 31, 2026 /1.0MB]</a></span>)
+ (<span class="relLnk"><a class="text-link" href="/english/news/assets/pdf/2026/pr0213en-03.pdf">Download PDF file [Announcement of Financial Results for the Nine Months Ended December 31, 2025 /302KB]</a></span>)
+ (<span class="relLnk"><a class="text-link" href="/english/news/assets/pdf/2025/pr0808en-03.pdf">Download PDF file [Announcement of Financial Results for the Three Months Ended June 30, 2025 /631KB]</a></span>)
+
+ WE LOOK FOR THI REQUIRED LINK DYNAMICALY  we click it it will lead us to pdf viewer page  (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image3.png) we trigger a download of the pdf save it in the downloads folder with timestamped subfolders for every run   here is a sample of the latest pdf (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\pr0515en-3-03.pdf)
+ wew can use ideas from the last script to helps us fitz to find the tables  and camelot for table extraction (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image4.png) lets go back to the runbook  we need to find this table (Unaudited Non-Consolidated Balance Sheets) z(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image5.png) you can see we found it on page 17 you can  use context of the labes to help narrowdown the right table faster  
+  based on the ASSETS,column we need to pick the data for both year quaters available on the table  on the ammont collumn as the subbheaders in the sample output giud it  
+  you can see the subheaders are verry detailed thew will guid yoou on the table lables and column to pick 
+we move on to the next table  (Find 'Unaudited Consolidated Balance Sheets’ table. Save all values from “ASSETS” section for all available periods:)
+
+you can see base on the runbook (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image6.png)  you can see we found the table on page 34 (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image7.png similar to the first table you can see we have the il)
+we can see we have 2 years available Q1 2025 AND Q12026 we can save that  the subheaders will guid us on the labes that  we require   mape them arcordingly we move to the next
+
+next we find the (Consolidated balance sheet amount) you can usee the labels to help narrow down the table (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image8.png)
+ based on the lable and the subleader swe need the date from the (Scarpe all the data values for 'Consolidated balance sheet amount' and 'Fair value' ) on the 
+(Fair Values of Financial Instruments) you can see its on page 46  map arcordingly
+next table base on the run book is (Held-to-maturity Bonds)(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image9.png) you can use the context on the lables of the table to narrow down on the table ()as you can see we found it on page 53 
+(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image10.png) we are interested in (Consolidated balance sheet amount) and (Fair value ) column based  the subheaders on the output will guide you on the lables we need  next table on the runbook is (Policy-reserve-matching Bonds) similar to  lucky for us its still on the same page 53   similar to the last one we concentrated on the lables and the (Consolidated balance
+sheet amount )(Fair value )  columns next table is the (Available-for-sale Securities)  which we found on page 54 of the pdf (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image11.png) based on the screen shot in the run book we concentrate on the (Consolidated balance
+sheet amount )(Cost) (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image12.png)
+prety straiht forword 
+next table is (Money held in trust classified as other than trading, held-to-maturity and policy-reserve-matching), (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image13.png)
+
+we concentrater on the (Consolidated
+balance sheet
+amount) ans cost column  as the the subheaders guide you  next table is the (Currency-related derivatives ) and the (Interest-related derivatives) all under (Derivative transactions to which the hedge accounting is applied)
+(D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image14.png) you can see its under page 56  use context to hepl narrow down the accurate tables on the 2 tables we need t the (Contract
+amount
+)(Fair value) and based on (Hedge accounting method) (Type of derivative) columns  check the lables (Fair value hedge accounting)   and thos coresponding to (Type of derivative)
+ the sub heades will guid us like this value (1,298,661) is mapped to this (Currency-related derivatives: Contract amount: Sold) and so on on the (Interest-related derivatives) based on the runbook (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image15.png)
+we are supposed to look for 2 rows (Deferred hedge accounting) and (Exceptional treatment for interest rate swaps)(Total) but in our current pdf we have
+9(Deferred hedge accounting)  and this ((Total)) co always keep an eye out the tables might be changing rows missing or lables missing if the lables has no data or missing  we leave it black but always keep aney out it misght appear nextime  just ensure its dynamic  the subheaders will guide you (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image14.png) you can work out an extraction logic and mapping
+same we need values from (Contract amount)and (Fair value) based on the screen short is (Interest rate-related derivatives: Contract amount: Deferred hedge method) which is (300,000)
+(Interest rate-related derivatives: Fair value: Deferred hedge method)=-72,803 which is represented as ("(72,803)")
+ the next table is this (Available-for-sale Securities Sold during the Fiscal Year) Scarpe all the data except the 'Total' from 'Available-for-sale Securities Sold during the Fiscal Year' table:
+ lets cange the runbook (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image16.png) based on the runbook its the table 55 (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image17.png)     we pikc the data on the Sales ,Gains,Losses   based on the lables  you can map them to the subheaders dynamicaly
+ remember the tables without the years unlike the first one 
+ next we need to check the (Scrape the data values form 'Book value' column from 'Assets held-to-maturity in trust/assets held for reserves in trust/other money held in trust' table:)
+ we can see it as the last table on page 16 (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image18.png) if we look at the runbook screen shot (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\image19.png) as you see this table we have 2 years wich will fit nicely to q1 2025 and q1 2025 like we started on the first table we concentrate on the Book value)  for both years    q1s for both years the first tables will guid us in the quaters aklso somthing to not the tables withought years will  be mapped to the latasts quater row on the output since the file is for quater 1 2026  the next file might have q2 2025and q2 2026 
+   Save values ​​in brackets as negative. Save values ​​like "-" as empty cells in the DATA file.
+   Use time period from the tables/column names and convert to YYYY-Q# format. If the period is missing in the table name, use the date from the report name.
+	Use LAST_RELEASE date from the main source page and convert to YYYY-MM-DDT11:00:00 format (2025-02-14T11:00:00):
+the date from the first page we scraped save the out put in the output folder with timestamped subfolders for every run and latest subfolder that always hold the latest files on every run  
+do a depp analysiz of the pdfs before you create the extraction here are a sample of pdfs (D:\Projects\SIMBA-RUNBOOKS\PICQD_Runbook\Project_information\sample) from the past you can create test scripts to test our thearies first and perfect the extraction be for creating an extractor  
+
+dont waste tokent ensure the pipeline is dynamic and future proof   and addaptive  save tokens where posible 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

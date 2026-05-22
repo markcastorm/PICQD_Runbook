@@ -1,0 +1,19 @@
+Section,Label,Cons_BS_2025-Q3,FairValue_2025-Q3,Unrealized_2025-Q3
+ASSETS,Monetary claims bought,22286.0,22286.0,
+ASSETS,Available-for-sale securities,22286.0,22286.0,
+ASSETS,Money held in trust,7124796.0,7124796.0,
+ASSETS,Securities,45770314.0,42797526.0,-2972787.0
+ASSETS,Held-to-maturity bonds,30950809.0,28851931.0,-2098877.0
+ASSETS,Policy-reserve-matching bonds,7127892.0,6253982.0,-873910.0
+ASSETS,Available-for-sale securities,7691611.0,7691611.0,
+ASSETS,Loans,2337169.0,2285938.0,-51231.0
+ASSETS,Policy loans,161798.0,161798.0,
+ASSETS,Industrial and commercial loans,727720.0,659100.0,-68262.0
+ASSETS,Loans to the Management Network,1448007.0,1465038.0,17030.0
+ASSETS,Reserve for possible loan losses,-356.0,,
+ASSETS,Total assets,55254566.0,52230546.0,-3024019.0
+LIABILITIES,Bonds payable,500000.0,477050.0,-22950.0
+LIABILITIES,Total liabilities,500000.0,477050.0,-22950.0
+DERIVATIVES,Hedge accounting not applied,117.0,117.0,
+DERIVATIVES,Hedge accounting applied,78904.0,78904.0,
+DERIVATIVES,Total derivative transactions,79021.0,79021.0,

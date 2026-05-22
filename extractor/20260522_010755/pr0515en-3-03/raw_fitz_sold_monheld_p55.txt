@@ -1,0 +1,13 @@
+Page 55  |  2 table(s)
+
+=== Table 0  3x4  bbox=[73, 96, 537, 251]
+                                                                                                                                                                                 Col0                                                                       Col1                                        Col2                                               (Millions of yen)
+0                                                                                                                                                                                                                                                          Sales                                       Gains                                                          Losses
+1  Bonds\nJapanese government bonds\nJapanese local government bonds\nJapanese corporate bonds\nStocks\nForeign securities\nForeign bonds\nOther foreign securities\nOther securities  467,360\n287,043\n80,197\n100,120\n142,222\n336,929\n336,708\n220\n63,098  130\n-\n-\n130\n36,272\n6,998\n6,998\n-\n-  109,620\n106,242\n442\n2,935\n9,151\n10,267\n10,267\n0\n11,901
+2                                                                                                                                                                               Total                                                                  1,009,612                                      43,401                                                         140,940
+
+=== Table 1  3x6  bbox=[73, 300, 537, 418]
+                              Col0 Consolidated\nbalance sheet\namount       Cost Those for which Those for which\nthe consolidated the consolidated\nDifference\nbalance sheet balance sheet\namount exceeds amount does not\ncost exceed cost                                                                    Col4                                                                            Col5
+0                             None                                None       None                                                                                                                                                          None  Those for which\nthe consolidated\nbalance sheet\namount exceeds\ncost  Those for which\nthe consolidated\nbalance sheet\namount does not\nexceed cost
+1  Specified\nmoney held in\ntrust                           7,901,359  4,272,395                                                                                                                                                     3,628,963                                                               3,659,948                                                                        (30,984)
+

@@ -1,0 +1,22 @@
+Section,Label,Cons_BS_2025-Q3,Cost_2025-Q3,Diff_2025-Q3
+exceed,Bonds,167339.0,163107.0,4231.0
+exceed,Japanese government bonds,,,
+exceed,Japanese local government bonds,,,
+exceed,Japanese corporate bonds,167339.0,163107.0,4231.0
+exceed,Stocks,580968.0,332352.0,248616.0
+exceed,Foreign securities,943898.0,892643.0,51254.0
+exceed,Foreign bonds,774855.0,729146.0,45709.0
+exceed,Other foreign securities,169042.0,163496.0,5545.0
+exceed,Other,1014873.0,943314.0,71558.0
+exceed,Subtotal,2707079.0,2331418.0,375661.0
+notexc,Bonds,2661617.0,3053000.0,-391383.0
+notexc,Japanese government bonds,1116489.0,1409427.0,-292938.0
+notexc,Japanese local government bonds,295357.0,311452.0,-16095.0
+notexc,Japanese corporate bonds,1249770.0,1332120.0,-82349.0
+notexc,Stocks,52863.0,59088.0,-6224.0
+notexc,Foreign securities,1175132.0,1236644.0,-61512.0
+notexc,Foreign bonds,1174421.0,1235905.0,-61483.0
+notexc,Other foreign securities,710.0,739.0,-28.0
+notexc,Other,2287204.0,2398560.0,-111355.0
+notexc,Subtotal,6176818.0,6747294.0,-570475.0
+TOTAL,Total,8883898.0,9078712.0,-194814.0

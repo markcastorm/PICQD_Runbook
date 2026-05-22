@@ -1,0 +1,58 @@
+=== STREAM Table 0  shape=(55, 5)  acc=99.8
+                                            0            1                                             2            3                  4
+0   (3) Unaudited Consolidated Balance Sheets                                                                                           
+1                                                                                                                      (Millions of yen)
+2                                        Year  As of March                            As of March \nYear  As of March        As of March
+3                                                 31, 2025                                      31, 2026     31, 2025           31, 2026
+4                                       Items       Amount                                 tems \nAmount       Amount             Amount
+5                                     ASSETS:                                               LIABILITIES:                                
+6                           Cash and deposits    1,976,083        1,752,984 \nPolicy reserves and others   50,165,652         48,102,350
+7                                                                                Reserve for outstanding                                
+8                                  Call loans       30,000                                        30,000      314,993            319,831
+9                                                                                                 claims                                
+10                   Receivables under resale                                                                                           
+11                                                 604,914                     472,482 \nPolicy reserves   48,765,531         46,653,326
+12                                 agreements                                                                                           
+13                                                                              Reserve for policyholder                                
+14                     Monetary claims bought       23,215                                        21,229    1,085,126          1,129,192
+15                                                                                             dividends                                
+16                        Money held in trust    6,460,029               8,039,836  Reinsurance payables        5,945              5,978
+17                                 Securities   46,528,793                    44,931,286 \nBonds payable      500,000            500,000
+18                                                                             Payables under repurchase                                
+19                                      Loans    2,530,051                                     2,134,764    4,516,922          4,595,895
+20                                                                                            agreements                                
+21                      Tangible fixed assets      141,068                    135,807  Other liabilities      187,251            265,686
+22                                                                                Reserve for management                                
+23                                       Land       76,632                                        75,534          227                248
+24                                                                                               bonuses                                
+25                                                                              Liability for retirement                                
+26                                  Buildings       43,040                                        40,714      107,927             98,658
+27                                                                                              benefits                                
+28                                                                                Reserve for management                                
+29                              Leased assets        4,363                                         4,759          407                481
+30                                                                                   board benefit trust                                
+31                                                                                     Reserve for price                                
+32                   Construction in progress          525                                            25      829,930            719,232
+33                                                                                          fluctuations                                
+34                Other tangible fixed assets       16,507                    14,772 \nTotal liabilities   56,314,265         54,288,531
+35                    Intangible fixed assets      113,596                         119,394 \nNET ASSETS:                                
+36                                   Software      113,585                        119,385  Capital stock      500,000            500,000
+37              Other intangible fixed assets           11                            9  Capital surplus      405,044            405,044
+38                 Agency accounts receivable       10,872                     11,837  Retained earnings      803,497            894,329
+39                    Reinsurance receivables       10,641                       15,779 \nTreasury stock        (901)           (45,903)
+40                               Other assets      398,321          454,878 \nTotal shareholders’ equity    1,707,640          1,753,470
+41                                                                                  Net unrealized gains                                
+42                        Deferred tax assets      728,870          322,742 \n(losses) on available-for-    1,551,673          2,448,521
+43                                                                                       sale securities                                
+44                                                                           Net deferred gains (losses)                                
+45           Reserve for possible loan losses        (766)                                         (864)     (19,614)           (62,655)
+46                                                                                             on hedges                                
+47                                                                               Accumulated adjustments                                
+48                                                                                                              1,727             14,291
+49                                                                               for retirement benefits                                
+50                                                                               Total accumulated other                                
+51                                                                                                          1,533,786          2,400,158
+52                                                                                  comprehensive income                                
+53                                                                                      Total net assets    3,241,426          4,153,628
+54                               Total assets   59,555,692  58,442,160  Total liabilities and net assets   59,555,692         58,442,160
+

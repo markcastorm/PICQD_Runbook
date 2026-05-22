@@ -1,0 +1,26 @@
+Page 6  |  3 table(s)
+
+=== Table 0  7x4  bbox=[72, 64, 517, 168]
+                                                                    Col0             Col1            Col2  (Billions of yen)
+0                                                                  As of              NaN  March 31, 2024  December 31, 2024
+1                                Equities of subsidiaries and affiliates              NaN            78.6              181.0
+2  Available-for-sale securities\nDomestic stocks\nForeign stocks\nOther              NaN           137.6              152.2
+3                                                                    NaN  Domestic stocks             4.2                4.2
+4                                                                    NaN   Foreign stocks            23.1               23.6
+5                                                                    NaN            Other           110.1              124.3
+6                                                                  Total              NaN           216.2              333.3
+
+=== Table 1  4x11  bbox=[72, 240, 544, 314]
+                  As of          March 31, 2024         Col2                                         Col3   Col4    Col5       December 31, 2024         Col7                                         Col8   Col9   Col10
+0                   NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN
+1                   NaN                     NaN          NaN                                          NaN  Gains  Losses                     NaN          NaN                                          NaN  Gains  Losses
+2  Money held in\ntrust                 6,158.0      6,158.0                                            -      -       -                 6,524.3      6,524.3                                            -      -       -
+
+=== Table 2  6x11  bbox=[72, 391, 544, 522]
+                                As of March 31, 2024         Col2                                         Col3     Col4    Col5 December 31, 2024         Col7                                         Col8     Col9   Col10
+0                                 NaN    Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN       Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN
+1                                 NaN            NaN          NaN                                          NaN    Gains  Losses               NaN          NaN                                          NaN    Gains  Losses
+2  Assets held-to-\nmaturity in trust              -            -                                            -        -       -                 -            -                                            -        -       -
+3  Assets held for\nreserves in trust              -            -                                            -        -       -                 -            -                                            -        -       -
+4          Other money\nheld in trust        3,642.4      6,158.0                                      2,515.5  2,553.9    38.3           3,811.9      6,524.3                                      2,712.3  2,764.3    51.9
+

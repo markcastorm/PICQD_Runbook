@@ -1,0 +1,13 @@
+Page 59  |  2 table(s)
+
+=== Table 0  4x6  bbox=[71, 96, 537, 326]
+       Hedge\naccounting\nmethod                                                               Type of derivative                      Major\nhedged item                               Contract\namount Contract\namount due\nafter 1 year                                Fair value
+0    Deferred\nhedge\naccounting     Currency swaps\nYen-receipt / Foreign\ncurrency payment\nU.S. dollars\nEuros  Foreign\ncurrency-\ndenominated\nbonds                        108,263\n105,898\n2,365            108,263\n105,898\n2,365                            249\n297\n(47)
+1  Fair value\nhedge\naccounting  Forward foreign\nexchange\nSold\nU.S. dollars\nEuros\nAustralian dollars\nOther  Foreign\ncurrency-\ndenominated\nbonds  1,319,941\n798,266\n165,283\n206,698\n149,692                      -\n-\n-\n-\n-  (6,293)\n(12,180)\n(4,804)\n6,395\n4,295
+2                          Total                                                                              NaN                                     NaN                                              -                                  -                                   (6,043)
+
+=== Table 1  3x6  bbox=[71, 351, 537, 450]
+     Hedge\naccounting\nmethod                                                   Type of derivative    Major\nhedged item Contract\namount Contract\namount due\nafter 1 year Fair value
+0  Deferred\nhedge\naccounting  Interest rate swaps\nFixed-rate receivable /\nFloating-rate payable  Insurance\nliability          300,000                            300,000   (27,848)
+1                        Total                                                                  NaN                   NaN                -                                  -   (27,848)
+

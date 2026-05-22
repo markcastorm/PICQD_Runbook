@@ -1,0 +1,47 @@
+Section,Label,2025-Q1,2026-Q1
+ASSETS,Cash and deposits,1976083.0,1752984.0
+ASSETS,Call loans,30000.0,30000.0
+ASSETS,Receivables under resale agreements,604914.0,472482.0
+ASSETS,Monetary claims bought,23215.0,21229.0
+ASSETS,Money held in trust,6460029.0,8039836.0
+ASSETS,Securities,46528793.0,44931286.0
+ASSETS,Loans,2530051.0,2134764.0
+ASSETS,Tangible fixed assets,141068.0,135807.0
+ASSETS,Land,76632.0,75534.0
+ASSETS,Buildings,43040.0,40714.0
+ASSETS,Leased assets,4363.0,4759.0
+ASSETS,Construction in progress,525.0,25.0
+ASSETS,Other tangible fixed assets,16507.0,14772.0
+ASSETS,Intangible fixed assets,113596.0,119394.0
+ASSETS,Software,113585.0,119385.0
+ASSETS,Other intangible fixed assets,11.0,9.0
+ASSETS,Agency accounts receivable,10872.0,11837.0
+ASSETS,Reinsurance receivables,10641.0,15779.0
+ASSETS,Other assets,398321.0,454878.0
+ASSETS,Deferred tax assets,728870.0,322742.0
+ASSETS,Reserve for possible loan losses,-766.0,-864.0
+ASSETS,Total assets,59555692.0,58442160.0
+LIABILITIES,Policy reserves and others,50165652.0,48102350.0
+LIABILITIES,Reserve for outstanding claims,314993.0,319831.0
+LIABILITIES,Policy reserves,48765531.0,46653326.0
+LIABILITIES,Reserve for policyholder dividends,1085126.0,1129192.0
+LIABILITIES,Reinsurance payables,5945.0,5978.0
+LIABILITIES,Bonds payable,500000.0,500000.0
+LIABILITIES,Payables under repurchase agreements,4516922.0,4595895.0
+LIABILITIES,Other liabilities,187251.0,265686.0
+LIABILITIES,Reserve for management bonuses,227.0,248.0
+LIABILITIES,Liability for retirement benefits,107927.0,98658.0
+LIABILITIES,Reserve for management board benefit trust,407.0,481.0
+LIABILITIES,Reserve for price fluctuations,829930.0,719232.0
+LIABILITIES,Total liabilities,56314265.0,54288531.0
+NET ASSETS,Capital stock,500000.0,500000.0
+NET ASSETS,Capital surplus,405044.0,405044.0
+NET ASSETS,Retained earnings,803497.0,894329.0
+NET ASSETS,Treasury stock,-901.0,-45903.0
+NET ASSETS,Total shareholders’ equity,1707640.0,1753470.0
+NET ASSETS,Net unrealized gains (losses) on available-for-sale securities,1551673.0,2448521.0
+NET ASSETS,Net deferred gains (losses) on hedges,-19614.0,-62655.0
+NET ASSETS,Accumulated adjustments for retirement benefits,1727.0,14291.0
+NET ASSETS,Total accumulated other comprehensive income,1533786.0,2400158.0
+NET ASSETS,Total net assets,3241426.0,4153628.0
+NET ASSETS,Total liabilities and net assets,59555692.0,58442160.0

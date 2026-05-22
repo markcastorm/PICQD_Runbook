@@ -1,0 +1,25 @@
+Page 17  |  3 table(s)
+
+=== Table 0  7x4  bbox=[72, 94, 517, 198]
+                                                          As of March 31             Col1   2024   2025
+0                                Equities of subsidiaries and affiliates              NaN   78.6  187.5
+1  Available-for-sale securities\nDomestic stocks\nForeign stocks\nOther              NaN  137.6  150.1
+2                                                                    NaN  Domestic stocks    4.2    4.2
+3                                                                    NaN   Foreign stocks   23.1   23.6
+4                                                                    NaN            Other  110.1  122.2
+5                                                                  Total              NaN  216.2  337.6
+
+=== Table 1  4x11  bbox=[72, 265, 544, 339]
+         As of March 31                    2024         Col2                                         Col3   Col4    Col5                    2025         Col7                                         Col8   Col9   Col10
+0                   NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses    NaN     NaN
+1                   NaN                     NaN          NaN                                          NaN  Gains  Losses                     NaN          NaN                                          NaN  Gains  Losses
+2  Money held in\ntrust                 6,158.0      6,158.0                                            -      -       -                 6,330.2      6,330.2                                            -      -       -
+
+=== Table 2  6x11  bbox=[72, 416, 544, 547]
+                       As of March 31         2024         Col2                                         Col3     Col4    Col5         2025         Col7                                         Col8     Col9   Col10
+0                                 NaN  Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN  Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses      NaN     NaN
+1                                 NaN          NaN          NaN                                          NaN    Gains  Losses          NaN          NaN                                          NaN    Gains  Losses
+2  Assets held-to-\nmaturity in trust            -            -                                            -        -       -            -            -                                            -        -       -
+3  Assets held for\nreserves in trust            -            -                                            -        -       -            -            -                                            -        -       -
+4          Other money\nheld in trust      3,642.4      6,158.0                                      2,515.5  2,553.9    38.3      3,874.5      6,330.2                                      2,455.7  2,495.5    39.8
+

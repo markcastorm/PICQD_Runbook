@@ -1,0 +1,25 @@
+Page 6  |  3 table(s)
+
+=== Table 0  7x4  bbox=[78, 79, 513, 182]
+                                                                   As of             Col1 March 31, 2025 June 30, 2025
+0                                Equities of subsidiaries and affiliates             None          187.5         194.9
+1  Available-for-sale securities\nDomestic stocks\nForeign stocks\nOther             None          150.1         151.5
+2                                                                   None  Domestic stocks            4.2           4.2
+3                                                                   None   Foreign stocks           23.6          21.6
+4                                                                   None            Other          122.2         125.6
+5                                                                  Total             None          337.6         346.4
+
+=== Table 1  4x11  bbox=[71, 254, 550, 324]
+                  As of          March 31, 2025         Col2                                         Col3   Col4    Col5           June 30, 2025         Col7                                         Col8   Col9   Col10
+0                  None  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses   None    None  Balance\nsheet\namount  Fair\nvalue  Net unrealized gains (losses)\nGains Losses   None    None
+1                  None                    None         None                                         None  Gains  Losses                    None         None                                         None  Gains  Losses
+2  Money held in\ntrust                 6,330.2      6,330.2                                            -      -       -                 6,564.9      6,564.9                                            -      -       -
+
+=== Table 2  6x11  bbox=[71, 402, 550, 533]
+                                As of March 31, 2025         Col2                                         Col3     Col4    Col5 June 30, 2025         Col7                                         Col8     Col9   Col10
+0                                None    Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses     None    None   Book\nvalue  Fair\nvalue  Net unrealized gains (losses)\nGains Losses     None    None
+1                                None           None         None                                         None    Gains  Losses          None         None                                         None    Gains  Losses
+2  Assets held-to-\nmaturity in trust              -            -                                            -        -       -             -            -                                            -        -       -
+3  Assets held for\nreserves in trust              -            -                                            -        -       -             -            -                                            -        -       -
+4          Other money\nheld in trust        3,874.5      6,330.2                                      2,455.7  2,495.5    39.8       3,912.4      6,564.9                                      2,652.4  2,686.2    33.8
+
